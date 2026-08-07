@@ -83,3 +83,14 @@ Enhance the platform to better support franchise-specific reporting and operatio
 
 ### Franchise Enhancements
 **We believe that** franchise-specific enhancements (data segregation, permissions, and KPIs) **will result in** franchise stakeholders having secure, relevant visibility into their own performance without exposure to unauthorized data **for** franchise owners and operators. **We'll know we're successful when** franchise users see only authorized data, franchise KPIs are live and distinct from company-owned metrics, and franchise stakeholders sign off that the platform meets their needs.
+
+---
+
+## Consolidated Acceptance Criteria
+
+- **Global consistency & parity:** Platform is live and fully functional in 100% of target markets, with feature parity across markets and no SLA or performance degradation as the platform scales globally.
+- **Language adoption:** All supported languages are fully translated across UI and report content, with no layout breakage on any device, and language adoption is measurable in markets that select a non-default language.
+- **Currency accuracy:** Currency toggle switches accurately across all supported currencies, with zero reported conversion discrepancies and clear, unambiguous currency labeling on all monetary KPIs.
+- **Franchise security & relevance:** Franchise-level data segregation and permissions are correctly enforced, franchise-specific KPIs are live and distinct from company-owned metrics, and franchise stakeholders sign off that visibility meets their needs.
+- **No regressions:** Existing market, language, currency, and reporting behavior is unaffected as all four capabilities are rolled out together.
+- **Stakeholder sign-off:** Business, franchise, and regional stakeholders confirm readiness across markets, languages, currencies, and franchise segments prior to global go-live.

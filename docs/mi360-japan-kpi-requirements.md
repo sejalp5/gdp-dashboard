@@ -85,3 +85,25 @@ CRM-Member performance KPIs are not currently available in the report, limiting 
 
 ### Bring BPOIS to Frontend
 **We believe that** surfacing BPOIS in the frontend **will result in** immediate access to already-completed backend value with minimal additional engineering effort **for** end users and stakeholders relying on the report. **We'll know we're successful when** BPOIS is visible on the frontend and its values reconcile 100% with the backend-calculated results.
+
+---
+
+## Acceptance Criteria
+
+### Annual KPI — Full-Year Reporting Fix
+- Selecting "Annual" + previous fiscal year returns exactly 12 months of data for that fiscal year, with no truncation at the prior fiscal year-end.
+- Cadence logic (Annual / Quarterly / Monthly) is reconciled against the OMNI SFS tab of *MI360JapanRequirement and Issue list.xlsx* and signed off.
+- Cadence behavior is consistent across all fiscal-year selections, not only the previous fiscal year.
+- No regression introduced to current-fiscal-year, Quarterly, or Monthly cadence views.
+
+### CRM KPI — Member Performance Metrics
+- CRM-Member KPI set — Sales, Comp%, Txn, Units, New Member — is displayed within the relevant report module.
+- Each KPI is filterable/sliceable consistent with existing report filtering behavior.
+- KPI values match source/backend calculations with no discrepancy.
+- KPIs follow existing chart-style and color-palette design standards already defined for the platform.
+
+### Bring BPOIS to Frontend
+- BPOIS is visible as a metric/field in the frontend report.
+- Frontend BPOIS values reconcile exactly with backend-calculated values (0% discrepancy).
+- BPOIS is presented consistent with existing report design standards (layout, formatting, chart style).
+- No additional backend work is required to expose the metric; only frontend integration is in scope.

@@ -69,3 +69,16 @@ CRM-Member performance KPIs are not currently available in the report, limiting 
 | Annual KPI — Full-Year Reporting Fix | Fix the report so that selecting "Annual" and the previous fiscal year displays the complete 12-month result set, instead of truncating at the end of the last fiscal year. Includes validating cadence logic against the MI360 Japan Requirement and Issue list (tab: OMNI SFS). | High | Aligns the report with Japan business KPI requirements, giving stakeholders a complete and accurate view of full-year sales performance instead of a partial, misleading one. | Data Eng |
 | CRM KPI — Member Performance Metrics | Display CRM-Member related KPIs — Sales, Comp%, Txn, Units, New Member — within the report. | Medium | Enables ongoing monitoring and evaluation of CRM member performance, supporting regular business analysis and decision-making. | Data Eng |
 | Bring BPOIS to Frontend | Backend work for BPOIS is complete; surface the metric in the frontend report so it is visible and usable by end users. | Medium | Unlocks already-completed backend value for end users with minimal additional engineering effort, closing the gap between finished data and stakeholder visibility. | Frontend / Data Eng |
+
+---
+
+## Hypotheses
+
+### Annual KPI — Full-Year Reporting Fix
+**We believe that** fixing the report to display the complete 12-month result set when "Annual" and the previous fiscal year are selected **will result in** an accurate, aligned view of full-year sales performance **for** Japan business stakeholders and report users. **We'll know we're successful when** 100% of "Annual" + prior fiscal year report views return the full 12 months of data, with sign-off from the Japan business team confirming alignment with their KPI requirements.
+
+### CRM KPI — Member Performance Metrics
+**We believe that** displaying CRM-Member related KPIs (Sales, Comp%, Txn, Units, New Member) **will result in** consistent, data-driven monitoring and evaluation of CRM member performance **for** business analysts and decision-makers. **We'll know we're successful when** the CRM-Member KPI set is live, filterable in the report, and actively referenced in regular business performance reviews.
+
+### Bring BPOIS to Frontend
+**We believe that** surfacing BPOIS in the frontend **will result in** immediate access to already-completed backend value with minimal additional engineering effort **for** end users and stakeholders relying on the report. **We'll know we're successful when** BPOIS is visible on the frontend and its values reconcile 100% with the backend-calculated results.

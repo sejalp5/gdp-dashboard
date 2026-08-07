@@ -2,10 +2,12 @@
 
 ## Feature / Initiative
 
-- Launch to all Markets
-- Languages
-- Currency Toggle
-- Franchise Enhancements
+| Feature / Initiative | Description | Priority | Value & Outcome | Owner |
+|---|---|---|---|---|
+| Launch to all Markets | Roll out the platform/report to all remaining markets/regions beyond the current rollout footprint, ensuring full feature parity, data availability, and performance at global scale. Includes market-by-market readiness validation (data sources, permissions, localization dependencies) before go-live. | High | Delivers a single, globally consistent platform with full feature parity, giving business users in every target market the same reliable reporting experience without SLA or performance degradation as scale increases. | Product |
+| Languages | Add multi-language support so users can view the platform's UI, labels, and report content in their preferred language, beyond the current default language. | Medium | Removes language as an adoption barrier, letting non-English-speaking users navigate and understand the platform in their preferred language and driving measurable adoption across markets. | Platform |
+| Currency Toggle | Enable users to toggle displayed monetary values between local currency and a reporting/base currency (or between multiple currencies), so markets can view financial KPIs in the currency most relevant to their business context. | Medium | Makes financial KPIs immediately relevant and unambiguous for users outside the base reporting currency, with accurate, consistently-sourced conversions and zero discrepancies. | Platform |
+| Franchise Enhancements | Enhance the platform to better support franchise-specific reporting and operations — including franchise-level data segregation, permissions, and KPIs distinct from company-owned stores. | High | Gives franchise stakeholders secure, relevant visibility into their own performance without exposure to unauthorized data, distinguishing franchise KPIs from company-owned store metrics. | Product |
 
 ---
 

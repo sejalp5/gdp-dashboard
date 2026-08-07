@@ -64,3 +64,22 @@ Enhance the platform to better support franchise-specific reporting and operatio
 - Franchise data is included in relevant roll-up reports without being exposed to unauthorized users (e.g., other franchisees).
 - No regression to existing company-owned store reporting or permissions as franchise capabilities are added.
 - Franchise stakeholders sign off that the enhancements meet their reporting and operational needs.
+
+---
+
+## Hypotheses
+
+### Consolidated Statement
+**We believe that** launching to all markets with full localization (languages, currency toggle) and franchise-specific enhancements **will result in** a globally consistent, locally relevant platform that all markets — direct and franchise — can fully adopt **for** all regional business users, franchise stakeholders, and global platform administrators. **We'll know we're successful when** the platform is live with feature parity in 100% of target markets, supported languages and currencies are in active use across those markets, and franchise stakeholders confirm the platform meets their reporting and operational needs.
+
+### Launch to all Markets
+**We believe that** launching the platform to all remaining markets **will result in** a single, globally consistent platform with full feature parity **for** business users in every target market. **We'll know we're successful when** 100% of target markets are live with all core modules functioning identically, with no SLA or performance degradation as market count scales.
+
+### Languages
+**We believe that** adding multi-language support **will result in** a platform users can navigate and understand in their preferred language, removing adoption barriers tied to language **for** non-English-speaking users across all markets. **We'll know we're successful when** all supported languages are fully translated with no layout breakage, and language adoption is measurable across markets that select a non-default language.
+
+### Currency Toggle
+**We believe that** a currency toggle **will result in** financial KPIs that are immediately relevant and unambiguous **for** users viewing reports in markets outside the base reporting currency. **We'll know we're successful when** users can switch currencies with accurate, consistently-sourced conversions across all monetary KPIs, with zero reported conversion discrepancies.
+
+### Franchise Enhancements
+**We believe that** franchise-specific enhancements (data segregation, permissions, and KPIs) **will result in** franchise stakeholders having secure, relevant visibility into their own performance without exposure to unauthorized data **for** franchise owners and operators. **We'll know we're successful when** franchise users see only authorized data, franchise KPIs are live and distinct from company-owned metrics, and franchise stakeholders sign off that the platform meets their needs.

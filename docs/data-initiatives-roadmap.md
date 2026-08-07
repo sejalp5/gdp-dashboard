@@ -141,3 +141,23 @@ Each initiative below is framed as a testable hypothesis using the format:
 
 - **Priority:** Low
 - **Owner:** Ops
+
+---
+
+## Non-Functional Requirements
+
+Cross-cutting quality attributes the platform must satisfy for the initiatives above to succeed, derived from the roadmap content.
+
+| Category | Requirement | Related Initiative(s) |
+|---|---|---|
+| **Timeliness / Performance** | All scheduled data jobs and reports must complete and be delivered to stakeholders no later than 8:00 AM PST daily, with zero SLA breaches on a rolling 30-day basis. | Meet all SLAs by 8am PST |
+| **Data Quality** | Every onboarded source (Sales, Traffic, Inventory, OMNI, RFID, VIBE, CRAVE, Medallia, CB4) must pass defined data-quality (DQ) checks — schema conformance, completeness, freshness — before being exposed to consumers. | GCP Sources, OMNI/RFID/VIBE/CRAVE, Medallia, CB4 |
+| **Accuracy** | End-of-Period inventory snapshots must reflect stock positions within an agreed variance threshold (e.g., <2%) at period close. | Inventory EOP |
+| **Availability / Reliability** | Reporting pipelines and dashboards (MI360, WFM, EOP) must meet an agreed uptime target (e.g., 99.5%+) during business hours, including peak trading periods. | Peak Metrics in MI360, WFM – Success Metrics, Inventory EOP |
+| **Scalability** | The platform must support additional data streams and increasing data volume (e.g., RFID, CRAVE demand-sensing, peak-season traffic spikes) without degrading SLA performance. | OMNI/RFID/VIBE/CRAVE, Peak Metrics in MI360 |
+| **Security & Access Control** | Access must be governed by a single, equity-based global permissions model, consistently enforced across all regions and roles, with zero access-control-related incidents. | Permissions – Global Equity Admin |
+| **Compliance / Data Governance** | Report distribution must reach only authorized recipients; stale or duplicate distros must be identified and removed under an ongoing governance process. | Cleanup the Distros |
+| **Usability / Adoption** | Non-technical users must be able to query data via natural language without engineering support, and gamified elements must be intuitive enough to drive voluntary daily engagement. | AI Chatbot Integration, Gamification |
+| **Auditability** | Correlations between CX signals (Medallia) and operational metrics, and AI-driven task insights (CB4), must be traceable back to source data for verification. | Medallia, CB4 Integration |
+| **Interoperability** | New sources and streams must integrate cleanly with existing GCP pipelines and downstream tools (MI360, WFM, reporting platform) without requiring redundant data models. | GCP Sources, Hours of Operations, OMNI/RFID/VIBE/CRAVE |
+| **Maintainability** | Pipelines, schema mappings, and permissions models must be documented and governed so they can be extended (new sources, new regions) without rework of existing components. | GCP Sources, Permissions – Global Equity Admin |

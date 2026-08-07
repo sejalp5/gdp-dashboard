@@ -88,6 +88,8 @@ Enhance the platform to better support franchise-specific reporting and operatio
 
 ## Consolidated Acceptance Criteria
 
+Success = 100% of target markets live with full feature parity and no SLA/performance degradation, all supported languages fully translated with no layout breakage and measurable adoption, currency toggle switching accurately with zero conversion discrepancies, and franchise data segregation/permissions correctly enforced with live franchise KPIs and franchise stakeholder sign-off.
+
 - **Global consistency & parity:** Platform is live and fully functional in 100% of target markets, with feature parity across markets and no SLA or performance degradation as the platform scales globally.
 - **Language adoption:** All supported languages are fully translated across UI and report content, with no layout breakage on any device, and language adoption is measurable in markets that select a non-default language.
 - **Currency accuracy:** Currency toggle switches accurately across all supported currencies, with zero reported conversion discrepancies and clear, unambiguous currency labeling on all monetary KPIs.

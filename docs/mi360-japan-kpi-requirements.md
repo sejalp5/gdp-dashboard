@@ -74,6 +74,9 @@ CRM-Member performance KPIs are not currently available in the report, limiting 
 
 ## Hypotheses
 
+### Consolidated Statement
+**We believe that** fixing full-year Annual reporting, adding CRM-Member KPIs, and bringing BPOIS to the frontend **will result in** a report that is accurate, complete, and aligned with Japan business KPI requirements, giving stakeholders full visibility into sales, CRM member performance, and previously backend-only data **for** Japan business stakeholders, business analysts, and report end users. **We'll know we're successful when** "Annual" + prior fiscal year views show the complete 12 months with Japan business sign-off, CRM-Member KPIs are live and used in regular business reviews, and BPOIS is visible on the frontend with 100% reconciliation to backend values.
+
 ### Annual KPI — Full-Year Reporting Fix
 **We believe that** fixing the report to display the complete 12-month result set when "Annual" and the previous fiscal year are selected **will result in** an accurate, aligned view of full-year sales performance **for** Japan business stakeholders and report users. **We'll know we're successful when** 100% of "Annual" + prior fiscal year report views return the full 12 months of data, with sign-off from the Japan business team confirming alignment with their KPI requirements.
 
